@@ -1,24 +1,19 @@
-# README
+# Simple Task Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This is a simplest example of RoR scaffolding. No signin/login needed.
+Any user can do any CRUD operaton for managing task. Just hit this link https://lit-mesa-3722.herokuapp.com/tasks/ and enjoy.
 
 * Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
+  2.3.1
 
 * Database initialization
 
-* How to run the test suite
+  Change username and password in /config/database.yml file according to your local PostgreSql user setting.
 
-* Services (job queues, cache servers, search engines, etc.)
+* How to run:
 
-* Deployment instructions
-
-* ...
+  Pull/Download the app in your local pc.
+  To install all the gem: bundle install
+  To create database: rake db:create
+  To migrate database: rake db:migrate
